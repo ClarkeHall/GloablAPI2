@@ -14,14 +14,14 @@ public class GloablApi2Application {
 		SpringApplication.run(GloablApi2Application.class, args);
 	}
 
-	// http://localhost:8080/test
+	// http://localhost:9993/test
 	@RequestMapping("/String")
 	String WhatIsAString()
 	{
 		return "Clarke's new API test running on server";
 	}
 
-	// http://localhost:8080/test
+	// http://localhost:9993/test
 	@RequestMapping("/Number")
 	String giveMeANumber()
 	{
